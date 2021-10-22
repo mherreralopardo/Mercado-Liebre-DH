@@ -8,7 +8,7 @@
     servidor.use(express.static(publicFolderPath));
 
     servidor.listen (port, ()=> {
-        console.log("Servidor funcionando")
+        console.log("Servidor andando cheto")
     })
 
     

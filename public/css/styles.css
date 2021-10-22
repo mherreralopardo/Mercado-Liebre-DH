@@ -295,7 +295,7 @@ input {
     .slogan {
         display: inline-block;
         text-align: center;
-        
+
     }
 
     .contenedor {
@@ -362,7 +362,7 @@ input {
         width: 45%;
         flex-wrap: wrap;
         justify-content: space-between;
-        transition: all 450ms
+        transition: all 1000ms
 
     }
 
