@@ -1,23 +1,26 @@
 {
-  "name": "proyecto-mercadoliebre",
+  "name": "app",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mherreralopardo/Mercado-Liebre-DH.git"
+    "url": "git+https://github.com/devcox/digitalhousen18.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mherreralopardo/Mercado-Liebre-DH/issues"
+    "url": "https://github.com/devcox/digitalhousen18/issues"
   },
-  "homepage": "https://github.com/mherreralopardo/Mercado-Liebre-DH#readme"
+  "homepage": "https://github.com/devcox/digitalhousen18#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  }
 }
+
